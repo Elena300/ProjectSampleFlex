@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(156, 153, 149);
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: rgb(242, 219, 188);
+}
+
+.upper {
+    flex-grow: 1;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    display: flex;
+    flex-basis: 25%;
+}
+
+.middle1 {
+    flex-basis: 50%;
+    display: flex;
+    background-color: rgb(208, 166, 59);
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower {
+    background-color: rgb(208, 166, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    margin: 10px;
+}
+
+aside {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: rgb(157, 235, 157);
+}
+
+footer {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(156, 153, 149);
+}
+
+.section {
+    background-color: rgb(210, 205, 205);
+    display: flex;
+    padding-inline: 10px;
+    padding-block: 30px;
+}
